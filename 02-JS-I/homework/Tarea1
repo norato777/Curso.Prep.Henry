@@ -1,0 +1,7 @@
+Variables: Las variables son elementos que nos permiten almacenar datos para usarlos despues.
+Strings: Son bloques de caracteres que van dentro de comillas.
+Funcion: Las funciones son los objetos que separan y le dan estructura a las variables para que ejecuten una tarea que produzca un resultado.
+Declaracion: la declaracion define a la funcion con unos parametros especificados.
+Boleanos: Son datos que pueden tener solo dos valores, falso o verdadero.
+
+

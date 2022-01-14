@@ -127,7 +127,7 @@ function multiplicarArgumentos() {
   if (arguments.length === 0){
     return 0;
   }
-  if (arguments.lenght === 1){
+  if (arguments.length === 1){
     return arguments[0];
   }
   let resultado = 1;

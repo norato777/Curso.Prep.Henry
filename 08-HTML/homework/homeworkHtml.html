@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tarea HTML de Edison Sanchez Norato</title>
+    <style>
+        :root 
+        {
+          --white: #FFFFFF;
+          --platinum: #E5E5E5;
+          --orange-web: #FCA311;
+          --oxford-blue: #14213D;
+          --black: #000000;
+          --text-input-field: #F7F7F7;
+          --sm: 14px;
+          --md: 16px;
+          --lg: 18px;
+        }
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background: var(--platinum);
+            font-family:'Ubuntu', sans-serif;            
+        }
+        .divClass
+        {
+            height: 140px;         
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .divClass1
+        {
+            height: 350px;
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 420px);
+            text-align: justify;
+            justify-content: center;
+            font-size: var(--md)
+        }
+        .restorant-card
+        {
+            width: 240px;
+            margin-left: 70px;
+        }
+        .restorant-card img
+        {
+            width: 240px;
+            height: 240px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        .restorant-info 
+        {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 7px;
+            font-size: var(--sm);
+        }
+        .food-container
+        {
+            margin: 0px;
+            padding: 50px;
+            height: 280px;
+            background: var(--oxford-blue);            
+        }
+        .cards-container
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 240px);
+            gap: 35px;
+            place-content: center;
+            align-items: center;
+        }
+        .food-card 
+        {
+            width: 240px;
+        }
+        .food-card img 
+        {
+            width: 240px;
+            height: 240px;
+            border-radius: 20px;            
+            object-fit: cover;
+        }
+        .food-info 
+        {
+            text-align: center;
+            font-size: var(--lg);
+            color: var(--white);
+        }        
+    </style>
+</head>
+
+<body>
+    
+    <div class="divClass">
+        <h1>Edison Sánchez Norato</h1>
+        <h3 style="color: var(--oxford-blue);"> Soy Henry </h3>
+        <h4 style="color: #FCA311;"> Tarea de HTML / CSS </h4>
+    </div>
+
+    <div class="divClass1">
+
+        <span class="spanId">
+            <p>Como buen Colombiano, mis comidas favoritas son <b>el cocido boyacense, la mazamorra boyacense, el ajiaco santafereño, el tamal santafereño, el mute santandereano, 
+            la bandeja paisa, las arepas y las empanadas</b>.</p>
+            Desde que vivo en México, he ajustado mis gustos a la comida típica de este hermoso pais siendo mis favoritos <b>los tacos</b> en todas sus variedades, <b>el pozole</b> 
+            es la mejor sopa que tienen. 
+            <p>Como mi indiscutible favorita esta <b>la comida yucateca</b>; la carne de cerdo es el ingrediente principal, que se sirve en tortillas fritas rellenas de frijol, se les 
+            pone cebolla con chile habanero.</p>  <p>Normalmente se acompaña con sopa de lima y agua de horchata.</p>
+        </span>
+
+        <div class="restorant-card">
+            <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.18169-9/12003264_967141553345743_2467569953236090626_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=Qfxb2qgFvGwAX_JdtsY&_nc_ht=scontent-qro1-1.xx&oh=00_AT8ovbri6YgvlOqG7gHNNdQ-SM5z7XGxKje0IGktF_RQJQ&oe=6205A6A4" alt="">
+            <div class="restorant-info">
+                <div>
+                    <p>Cienaga Restaurante</p>
+                    <a href="https://www.facebook.com/Cienaga.com.mx/">Mi restaurante Colombiano favorito en México!</a>
+                </div>              
+            </div>
+        </div>
+            
+
+    </div>
+    
+    <section class="food-container">
+        <div class="cards-container">
+
+          <div class="food-card">
+            <img src="https://www.brisasboyacenses.com/images/IMG_4385.jpg" alt="">
+            <div class="food-info">
+              <div>
+                <p>Cocido Boyacense</p>
+              </div>              
+            </div>
+          </div>
+
+          <div class="food-card">
+            <img src="https://www.brisasboyacenses.com/images/IMG_4441.jpg" alt="">
+            <div class="food-info">
+              <div>
+                <p>Mazamorra Boyacense</p>
+              </div>              
+            </div>
+          </div>
+
+          <div class="food-card">
+            <img src="https://cdn.colombia.com/gastronomia/2011/07/22/ajiaco-1458.webp" alt="">
+            <div class="food-info">
+              <div>
+                <p>Ajiaco Santafereño</p>
+              </div>              
+            </div>
+          </div>
+
+          <div class="food-card">
+            <img src="https://antojandoando.com/wp-content/uploads/2016/12/detail.jpg" alt="">
+            <div class="food-info">
+              <div>
+                <p>Tamal Santafereño</p>
+              </div>              
+            </div>
+          </div>
+
+          <div class="food-card">
+            <img src="https://cdn.colombia.com/gastronomia/2011/07/28/mute-santandereano-1591.webp" alt="">
+            <div class="food-info">
+              <div>
+                <p>Mute Santandereano</p>
+              </div>              
+            </div>
+          </div>
+
+          <div class="food-card">
+            <img src="https://static.vix.com/es/sites/default/files/styles/4x3/public/imj/elgranchef/B/Bandeja-paisa-plato-tipico-de-Colombia.jpg?itok=88GTuOIj" alt="">
+            <div class="food-info">
+              <div>
+                <p>Bandeja Paisa</p>
+              </div>              
+            </div>
+          </div>
+
+        </div>
+    </section>
+</body>
+</html>

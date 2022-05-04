@@ -115,7 +115,7 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Escribe tu código aquí  
   var arreglo = [];
   for (let i = 0; i < arreglo1.length; i++){
-    for (let j = o; j < arreglo2.length; i++) {
+    for (let j = 0; j < arreglo2.length; i++) {
       if (arreglo1[i] === arreglo2[j]){
         arreglo.push(arreglo1[i])
       }
